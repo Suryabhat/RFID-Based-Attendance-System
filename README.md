@@ -26,6 +26,8 @@ This project implements an RFID-based attendance system using an ESP8266 microco
 - HTTPSRedirect Library
 
 ## Circuit Diagram
+![image](https://github.com/user-attachments/assets/0b8f46cb-d4c4-4ee9-92b3-c102c9744cba)
+
 - **ESP8266** to **MFRC522 RFID Module**:
   - SS -> D4 (GPIO2)
   - RST -> D3 (GPIO0)
