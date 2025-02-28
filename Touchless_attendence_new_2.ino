@@ -9,12 +9,12 @@
 LiquidCrystal_I2C lcd(0x27, 16, 2);
 //---------------------------------------------------------------------------------------------------------
 // Enter Google Script Deployment ID:
-const char *GScriptId = "AKfycbwQf3CIUQmCR-6LnJp4SbOo8TNY5pMfQdf6ga6ufvHUbb-plpThJf8LbfJ0yUkLagA3fw";
+const char *GScriptId = "*******"; // Add your Google Script ID
 String gate_number = "Gate1";
 //---------------------------------------------------------------------------------------------------------
 // Enter network credentials:
-const char* ssid     = "Surya Pixel";
-const char* password = "Sadasurya";
+const char* ssid     = "********";  // Wifi username
+const char* password = "*********"; // Wifi Password
 //---------------------------------------------------------------------------------------------------------
 // Enter command (insert_row or append_row) and your Google Sheets sheet name (default is Sheet1):
 String payload_base =  "{\"command\": \"insert_row\", \"sheet_name\": \"Sheet1\", \"values\": ";
